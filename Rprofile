@@ -21,8 +21,8 @@ options(prompt = "R> ")
 # # options(gsubfn.engine = "R")
 #  
 # ## Don't ask me for my CRAN mirror every time
-# ## options("repos" = c(CRAN = "http://cran.rstudio.com/"))
-#  
+options("repos" = c(CRAN = "https://mran.revolutionanalytics.com/snapshot/2016-03-06”)) 
+#
 # ## Create a new invisible environment for all the functions to go in so it doesn't clutter your workspace.
 # .env <- new.env()
 #  
